@@ -1,15 +1,63 @@
 body{
-    background: url(../images/bgRio.jpg) no-repeat center fixed;
-}
-
-.menu-button{
-    color: #fff;
-    background:rgba(21, 255, 0, 0.6);
-    margin-left: 10px;
+    background: linear-gradient(rgba(208, 132, 17, 0.6), rgba(80, 74, 66, 0.6)),
+                url(../images/bgRio.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 nav.navbar-transparent{
-    background: rgba(0,0,0,0.6)
+    background: rgba(0, 0, 0, 0.741)
+}
+
+h1{
+    color:white;
+    font-family: 'Georgia', cursive;
+    font-weight: 550;
+    font-size:60px;
+}
+
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0,0,0);
+    color: white;
+    text-align: center;
+}
+
+#welcome-block{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+#social-block{
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 530;
+}
+
+.navbar-nav .navlink:hover{
+    color: rgb(101, 255, 62);
+}
+
+.logo{
+    color: white;
+}
+
+.division{
+    background:white;
+    width: 1px;
+    margin: 13px;
 }
 
 .icon{
@@ -17,17 +65,7 @@ nav.navbar-transparent{
     height: 50px;
 }
 
-#welcome-block{
-    margin-top: 10%;
-    background: rgba(0,0,0,0.6);
-    padding: 30px;
+.blockType1{
+    background: rgba(45, 163, 89, 0.6);
     text-align: center;
-    width: 100%;
-    color:orange;
-}
-
-#social-block{
-    margin-top: 30px;
-    text-align: center;
-    width: 100%;
 }
